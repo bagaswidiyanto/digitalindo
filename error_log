@@ -1,0 +1,22 @@
+[01-Dec-2021 15:55:01 Asia/Jakarta] PHP Parse error:  syntax error, unexpected end of file, expecting ',' or ';' in /home/u9973874/public_html/newwebsite/application/views/layout/header.php on line 167
+[01-Dec-2021 17:30:48 Asia/Jakarta] PHP Parse error:  syntax error, unexpected '<' in /home/u9973874/public_html/newwebsite/application/views/content/v_home.php on line 59
+[08-Dec-2021 16:03:37 Asia/Jakarta] PHP Fatal error:  Function name must be a string in /home/u9973874/public_html/newwebsite/application/views/content/v_home.php on line 57
+[10-Dec-2021 15:51:26 Asia/Jakarta] PHP Fatal error:  Call to a member function num_rows() on a non-object in /home/u9973874/public_html/newwebsite/application/views/content/v_karir.php on line 85
+[10-Dec-2021 16:43:08 Asia/Jakarta] PHP Parse error:  syntax error, unexpected 'if' (T_IF) in /home/u9973874/public_html/newwebsite/application/views/content/v_karir.php on line 87
+[24-Dec-2021 21:05:24 Asia/Jakarta] PHP Fatal error:  Call to a member function num_rows() on a non-object in /home/u9973874/public_html/newwebsite/application/views/content/v_home.php on line 675
+[24-Dec-2021 21:12:56 Asia/Jakarta] PHP Fatal error:  Call to undefined method CI_DB_mysqli_driver::num_rows() in /home/u9973874/public_html/newwebsite/application/views/content/v_home.php on line 675
+[28-Jan-2022 10:06:32 Asia/Jakarta] PHP Parse error:  syntax error, unexpected 'else' (T_ELSE) in /home/u9973874/public_html/newwebsite/application/views/content/v_berita.php on line 119
+[23-Jun-2022 15:58:24 Asia/Jakarta] PHP Fatal error:  Call to a member function num_rows() on a non-object in /home/u9973874/public_html/newwebsite/application/views/content/v_berita.php on line 239
+[23-Jun-2022 16:01:31 Asia/Jakarta] PHP Fatal error:  Call to a member function num_rows() on a non-object in /home/u9973874/public_html/newwebsite/application/views/content/v_berita.php on line 239
+[23-Jun-2022 16:01:55 Asia/Jakarta] PHP Fatal error:  Call to a member function num_rows() on a non-object in /home/u9973874/public_html/newwebsite/application/views/content/v_berita.php on line 239
+[23-Jun-2022 16:05:55 Asia/Jakarta] PHP Fatal error:  Call to a member function num_rows() on a non-object in /home/u9973874/public_html/newwebsite/application/views/content/v_berita.php on line 239
+[23-Jun-2022 16:06:37 Asia/Jakarta] PHP Fatal error:  Call to a member function num_rows() on a non-object in /home/u9973874/public_html/newwebsite/application/views/content/v_berita.php on line 239
+[23-Jun-2022 16:07:14 Asia/Jakarta] PHP Fatal error:  Call to a member function num_rows() on a non-object in /home/u9973874/public_html/newwebsite/application/views/content/v_berita.php on line 239
+[23-Jun-2022 16:11:27 Asia/Jakarta] PHP Fatal error:  Call to a member function num_rows() on a non-object in /home/u9973874/public_html/newwebsite/application/views/content/v_berita.php on line 239
+[23-Jun-2022 16:12:30 Asia/Jakarta] PHP Fatal error:  Call to a member function num_rows() on a non-object in /home/u9973874/public_html/newwebsite/application/views/content/v_berita.php on line 239
+[23-Jun-2022 16:13:35 Asia/Jakarta] PHP Fatal error:  Call to a member function num_rows() on a non-object in /home/u9973874/public_html/newwebsite/application/views/content/v_berita.php on line 239
+[24-Jun-2022 07:25:39 UTC] PHP Fatal error:  Call to undefined method CI_User_agent::ip_address() in /home/u9973874/public_html/newwebsite/application/controllers/Berita.php on line 58
+[24-Jun-2022 17:16:29 Asia/Jakarta] PHP Parse error:  syntax error, unexpected '}' in /home/u9973874/public_html/newwebsite/application/views/content/v_berita_detail.php on line 276
+[04-Oct-2022 10:34:17 Asia/Jakarta] PHP Parse error:  syntax error, unexpected '=' in /home/u9973874/public_html/newwebsite/application/views/layout/header.php on line 15
+[04-Oct-2022 10:34:18 Asia/Jakarta] PHP Parse error:  syntax error, unexpected '=' in /home/u9973874/public_html/newwebsite/application/views/layout/header.php on line 15
+[04-Oct-2022 10:34:19 Asia/Jakarta] PHP Parse error:  syntax error, unexpected '=' in /home/u9973874/public_html/newwebsite/application/views/layout/header.php on line 15

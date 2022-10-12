@@ -1,0 +1,387 @@
+/* 
+@media (min-width: 1200px) xl
+@media (min-width: 992px) lg
+@media (min-width: 768px) md
+@media (min-width: 576px) sm
+================================================== */
+
+/* ============= MENU HOME ============= */
+
+/* Banner Inner */
+@media only screen and (max-width: 768px) {
+	.home_banner_area .banner_inner .banner_content h2 {
+		font-size: 20px;
+	}
+	.home_banner_area .banner_inner .banner_content p {
+		font-size: 11px;
+		margin-bottom: 0;
+	}
+
+	.home_banner_area .banner_inner .watch-video p {
+		font-size: 21px;
+		margin-left: 16px;
+	}
+
+}
+
+/* END Banner Inner */
+
+
+/* What We Do */
+
+@media (min-width: 576px) {
+	.what_we_do .border-line {
+		top: 45%;
+		left: 8.4%;
+		height: 44%;
+	}
+
+	.what_we_do .common_style p {
+		margin-left: 13px;
+	}
+}
+
+@media (min-width: 768px){
+	.what_we_do .border-line {
+		top: 8%;
+		left: 40.3%;
+		height: 72%;
+
+	}
+
+	.what_we_do .common_style p {
+		margin-left: 18px;
+	}
+
+	.what_we_do  .big_f_left {
+		text-align: right;
+	  }
+}
+
+@media (min-width: 992px){
+	.what_we_do .border-line {
+		top: 11% !important;
+		left: 37.4% !important;
+	}
+
+	.what_we_do .common_style p {
+		margin-left: 7px !important;
+	}
+}
+
+@media (min-width: 1200px) {
+	.what_we_do .border-line {
+		left: 36% !important;
+	}
+
+	.what_we_do .common_style p {
+		margin-left: -2px !important;
+	}
+}
+
+/* END What We Do */
+
+/* Home gap */
+
+@media (min-width: 576px) {
+	.home_gap .recent_update_inner .nav.nav-tabs li a {
+		height: 38px;
+	}
+}
+
+@media (min-width: 768px){
+	.home_gap .recent_update_inner .nav.nav-tabs {
+		width: 100%;
+	}
+
+
+	.home_gap .recent_update_inner .nav.nav-tabs li {
+		padding: 3px 16px;
+	}
+	.home_gap .recent_update_inner .nav.nav-tabs li a {
+		width: 139px;
+		height: 38px;
+	}
+
+	.home_gap .recent_update_inner .nav.nav-tabs h3 {
+		margin-top: 3px;
+		font-size: 12px;
+	}
+}
+
+@media (min-width: 992px){
+	.home_gap .recent_update_inner .nav.nav-tabs li a {
+		width: 175px;
+	}
+	.home_gap .recent_update_inner .nav.nav-tabs h3 {
+		margin-top: 0;
+		font-size: 16px;
+	}
+}
+
+@media (min-width: 1200px) {
+	.home_gap .recent_update_inner .nav.nav-tabs {
+		width: 82% !important;
+	}
+
+	.home_gap .recent_update_inner .nav.nav-tabs li a {
+		width: 200px;
+	}
+}
+
+/* END Home gap */
+
+
+/* Benefit */
+@media (min-width: 576px) {
+	.benefit .text-col-6 p {
+		font-size: 17px;
+		line-height: 22px;
+	}
+}
+
+@media (min-width: 768px){
+	.benefit .text-col-6 {
+		padding: 40px 0;
+	}
+
+	.benefit .text-col-6 p {
+		font-size: 20px;
+		line-height: 22px;
+		padding-right: 0;
+	}
+}
+
+@media (min-width: 992px){
+	.benefit .text-col-6 {
+		padding: 81px 0;
+	}
+}
+
+@media (min-width: 1200px) {
+	.benefit .text-col-6 p {
+		padding-right: 25%;
+	}
+}
+/* END Benefit */
+
+/* Clients */
+@media (min-width: 576px) {
+	.clients .text-col-6 p {
+		font-size: 17px;
+		line-height: 22px;
+	}
+}
+
+@media (min-width: 768px){
+	.clients .text-col-6 {
+		padding: 40px 0;
+	}
+
+	.clients .text-col-6 p {
+		font-size: 20px;
+		line-height: 22px;
+		padding-right: 0;
+	}
+}
+
+@media (min-width: 992px){
+	.clients .text-col-6 {
+		padding: 81px 0;
+	}
+}
+
+@media (min-width: 1200px) {
+	.clients .text-col-6 p {
+		padding-right: 12%;
+	}
+}
+
+/* END Clients */
+
+/* Tab Content */
+
+@media (min-width: 768px){
+	.tab-content {
+		margin-left: 0;
+	}
+}
+
+@media (min-width: 1200px){
+	.tab-content {
+		margin-left: 100px;
+	}
+}
+/* END Tab Content */
+
+/* Footer Newslatter */
+@media (min-width: 768px){
+	.footer_newsllater .call-col h2 {
+		font-size: 22px;
+	}
+
+	.footer_newsllater .call-col .call-us {
+		width: 80%;
+	}
+
+	.footer_newsllater .subs-col .email {
+		padding: 8px 8px 8px 0;
+		width: calc(100% - 88px);
+	}
+
+	.footer_newsllater form .bg-submit {
+		font-size: 14px;
+		padding: 0 7px;
+	  }
+}
+
+@media (min-width: 992px){
+	.footer_newsllater .call-col h2 {
+		font-size: 30px;
+	}
+
+	.footer_newsllater .call-col .call-us {
+		width: 60%;
+	}
+
+	.footer_newsllater .subs-col .email {
+		padding: 8px;
+		width: calc(100% - 175px);
+	}
+
+	.footer_newsllater form .bg-submit {
+		font-size: 18px;
+		padding: 0 25px;
+	}
+}
+
+/* END Footer Newslatter */
+
+
+/* ============= END MENU HOME ============= */
+
+
+/* ============= MENU NEWS ============= */
+
+/* Blog */
+@media (max-width: 991px) {
+	.blog .blog-container {
+		max-width: 95%;
+	}
+
+	.blog .sidebar-post .box-shadow {
+		padding: 30px 10px;
+	}
+
+	.blog .sidebar-post .recent-posts h4 {
+		font-size: 12px;
+		margin-left: 69px;
+	}
+}
+
+@media (max-width: 767px) {
+	.blog .entry {
+		padding: 10px;
+	}
+
+	.blog .entry .entry-img {
+		margin: -8px -10px 20px -10px;
+	}
+
+	.blog .entry .entry-meta li {
+		font-size: 12px;
+	}
+
+	.blog .entry .entry-meta i {
+		font-size: 12px;
+		margin-right: 3px;
+	}
+
+	.blog .entry .entry-meta ul li + li {
+		padding-left: 10px;
+	}
+
+	.blog .entry .entry-title {
+		font-size: 20px;
+	}
+
+	.blog .col-side-res {
+		margin-top: 10vh;
+	}
+
+	.blog .sidebar-post .box-shadow {
+		padding: 30px;
+	}
+
+	.blog .sidebar-post .recent-posts h4 {
+		font-size: 15px;
+		margin-left: 90px;
+	}
+}
+
+/* END  Blog */
+
+
+/* Blog Single */
+
+
+
+/* END  Blog Single */
+@media (max-width: 767px) { 
+	.blog-single .entry .entry-img img {
+		height: auto;
+	  }
+}
+
+/* Slider Post */
+
+@media (max-width: 991px) {
+	.slider-post .slider-post-item img {
+		height: 25vh !important;
+	}
+
+	.slider-post .slider-post-item .post-left {
+		padding: 25px 0 !important;
+	}
+
+	.slider-post .slider-post-item .entry-title a {
+		font-size: 20px !important;
+	}
+
+	.relate-topics {
+		padding: 0 0 72vh 0;
+	}
+
+	.relate-topics .topics-section {
+		width: 33%;
+	}
+}
+
+@media (max-width: 767px) { 
+	.slider-post .slider-post-item img {
+		width: 100% !important;
+		height: 35vh !important;
+	}
+
+	.slider-post .slider-post-item .post-left {
+		margin-left: 0 !important;
+	}
+
+	.slider-post .slider-post-item .post-left .entry-title {
+		margin-top: 62%;
+	}
+
+	.relate-topics {
+		padding: 0 0 115vh 0;
+	}
+
+	.relate-topics .topics-section {
+		width: 50%;
+	}
+}
+
+/* END Slider Post */
+
+/* ============= END MENU NEWS ============= */
+
+

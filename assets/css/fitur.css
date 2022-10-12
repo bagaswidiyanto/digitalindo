@@ -1,0 +1,232 @@
+.banner_area {
+    position: relative;
+    z-index: 1;
+    min-height: 50vh; 
+}
+
+.banner_inner::before {
+    position: absolute;
+    content: "";
+    background: rgba(0, 0, 0, 0.8);
+    opacity: .7;
+    z-index: 0;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+  
+  
+.banner_area .banner_inner {
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    height: 50vh;
+    background-size: cover;
+    z-index: 1; 
+}
+  
+.banner_area .banner_inner .banner_content .page_link a {
+    font-size: 24px;
+    color: #fff;
+    font-family: 'Titillium Web';
+    margin-right: 32px;
+    position: relative; 
+}
+.banner_area .banner_inner .banner_content .page_link a:before {
+    content: ">";
+    font-family: 'Titillium Web';
+    font-size: 22px;
+    position: absolute;
+    right: -25px;
+    top: 54%;
+    -webkit-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    -o-transform: translateY(-50%);
+    transform: translateY(-50%); 
+}
+.banner_area .banner_inner .banner_content .page_link a:last-child {
+    margin-right: 0px; 
+}
+.banner_area .banner_inner .banner_content .page_link a:last-child:before {
+display: none; 
+}
+
+@media (max-width: 480px) {
+    .banner_area .banner_inner .banner_content h2 {
+        font-size: 32px; 
+    }
+}
+
+
+.banner_area .banner_inner .text-hero .title h1 {
+    font-size: 54px;
+    color: #fff;
+}
+
+@media only screen and (max-width: 600px) {
+    .banner_area .banner_inner .text-hero .title h1 {
+        font-size: 34px;
+    }
+}
+
+.banner_area .banner_inner .text-hero .desk {
+    margin-top: 4vh;
+}
+
+.banner_area .banner_inner .text-hero .desk p {
+    color: #fff;
+    font-weight: 400;
+    line-height: 16px;
+}
+
+/* Wrapper */
+
+.wrapper {
+    display: flex;
+    justify-content: space-between;
+}
+
+.list-type6{
+    width:200px;
+}
+/* LIST #8 */
+.list-type6 ul {
+    list-style:none;
+}
+.list-type6 ul li {
+    font-size:15px;
+    font-family: 'Titillium Web';
+}
+.list-type6 ul li a {
+    display:block;
+    width:200px;
+    margin-left: -40px;
+    height:30px;
+    /*background-color:#2056a0;
+    border-left:5px solid #0B418B;
+    border-right:5px solid #3491d2;*/
+    padding-left:10px;
+    padding-top:4px;
+    text-decoration:none;
+    /*color:white;*/
+    color:#acacac;
+    margin-bottom: 7px;
+    transition: all .2s ease-in-out;
+}
+  
+.list-type6 ul li.active a {
+    display:block;
+    width:200px;
+    margin-left: -40px;
+    height:50px;
+    /*background-color:#f8b600;*/
+    background-color:#0d438d;
+
+    /*border-left:5px solid #f8b600;
+    border-right:5px solid #f8b600;*/
+    padding-left:10px;
+    padding-top:13px;
+    text-decoration:none;
+    /*color:#e18b16;*/
+    color:#fff;
+    margin-bottom: 7px;
+    transition: all .2s ease-in-out;
+    border-radius:9px;
+}
+
+
+.main {
+    width: 75%;
+    padding-right: 50px;
+}
+
+@media (max-width: 830px) {
+    .sidebar{
+        display: none;
+    }
+    .main {
+        width: 100%;
+        padding-right: 0px;
+    }
+
+
+}
+
+
+
+
+.fitur-bnefit {
+    position: relative;
+}
+
+.fitur-bnefit .nav-tabs {
+    border-bottom: none;
+}
+
+.fitur-bnefit .nav-tabs .nav-item {
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+
+.fitur-bnefit .nav-tabs .nav-item .nav-link {
+    box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.2);
+    border-radius: 30px;
+}
+
+.fitur-bnefit .nav-tabs .nav-item .nav-link.active {
+    background: #0d438d;
+}
+
+.fitur-bnefit .nav-tabs .nav-item .nav-link img {
+    max-height: 10vh;
+}
+
+.fitur-bnefit .tab-content {
+    margin-left: 0 !important;
+}
+
+.fitur-bnefit .tab-content .chart_img img {
+    max-height: 45vh;
+}
+
+.fitur-bnefit .tab-content .common_style {
+    font-size: 20px;
+    color: #000;
+    font-weight: 700;
+}
+
+
+
+
+.fitur-client {
+    position: relative;
+}
+
+.fitur-client .nav-tabs {
+    border-bottom: none;
+}
+
+.fitur-client .nav-tabs .nav-item {
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+
+.fitur-client .nav-tabs .nav-item .nav-link {
+    box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.2);
+    border-radius: 30px;
+}
+
+.fitur-client .nav-tabs .nav-item .nav-link.active {
+    background: #0d438d;
+}
+
+.fitur-client .nav-tabs .nav-item .nav-link img {
+    max-height: 17vh;
+}
+
+
+.fitur-client .tab-content .chart_img img {
+    max-height: 45vh;
+}

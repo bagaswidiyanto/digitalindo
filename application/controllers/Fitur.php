@@ -1,0 +1,11 @@
+<?php
+defined('BASEPATH') OR exit('No direct script access allowed');
+
+class Fitur extends MY_Controller {
+
+	public function index()
+	{
+		$this->web='content/v_fitur';
+		$this->layout();
+	}
+}
